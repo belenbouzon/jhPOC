@@ -1,0 +1,13 @@
+version: '2'
+services:
+    prueba-mariadb:
+        container_name: prueba-mariadb
+        image: mariadb:10.1.16
+        # volumes:
+        #     - ~/volumes/jhipster/prueba/mysql/:/var/lib/mysql/
+        environment:
+            - MYSQL_USER=root
+            - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+            - MYSQL_DATABASE=prueba
+        ports:
+            - 3306:3306

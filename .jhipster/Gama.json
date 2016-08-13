@@ -1,0 +1,18 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "cliente",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tono",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20160813142546",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "gama",
+    "pagination": "no"
+}
